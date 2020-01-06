@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd4da30-d833-421e-85a0-415c5fcccaba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_mysql/MySQLdb_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_mysql/flask_curd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_url/flask_url_01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +16,72 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/flask_stu$app_response.coverage" NAME="app_response Coverage Results" MODIFIED="1576897856137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaks_jsonify" />
-    <SUITE FILE_PATH="coverage/flask_stu$app_view.coverage" NAME="app_view Coverage Results" MODIFIED="1576907319348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_view" />
-    <SUITE FILE_PATH="coverage/flask_stu$app_api.coverage" NAME="app_api Coverage Results" MODIFIED="1576907820538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_view" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_error.coverage" NAME="flask_error Coverage Results" MODIFIED="1576894740335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_error" />
     <SUITE FILE_PATH="coverage/flask_stu$app_bp.coverage" NAME="app_bp Coverage Results" MODIFIED="1576909244186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_blue" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_mako.coverage" NAME="flask_mako Coverage Results" MODIFIED="1577280156822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_jinja2" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_jinja2.coverage" NAME="flask_jinja2 Coverage Results" MODIFIED="1577280125671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_jinja2" />
-    <SUITE FILE_PATH="coverage/flask_stu$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1578229764296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_stu$MySQLdb_insert_data.coverage" NAME="MySQLdb_insert_data Coverage Results" MODIFIED="1578320073502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
+    <SUITE FILE_PATH="coverage/flask_stu$app_response.coverage" NAME="app_response Coverage Results" MODIFIED="1576897856137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flaks_jsonify" />
+    <SUITE FILE_PATH="coverage/flask_stu$app_view.coverage" NAME="app_view Coverage Results" MODIFIED="1576907319348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_view" />
+    <SUITE FILE_PATH="coverage/flask_stu$flask_db_version.coverage" NAME="flask_db_version Coverage Results" MODIFIED="1578229917663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
+    <SUITE FILE_PATH="coverage/flask_stu$flask_curd.coverage" NAME="flask_curd Coverage Results" MODIFIED="1578318244271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
+    <SUITE FILE_PATH="coverage/flask_stu$app_api.coverage" NAME="app_api Coverage Results" MODIFIED="1576907820538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_view" />
+    <SUITE FILE_PATH="coverage/flask_stu$MySQLdb_create_table.coverage" NAME="MySQLdb_create_table Coverage Results" MODIFIED="1578319226739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
+    <SUITE FILE_PATH="coverage/flask_stu$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1578229909884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_stu$pymysql_curd.coverage" NAME="pymysql_curd Coverage Results" MODIFIED="1578318363919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello_world.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_mysql/flask_curd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="108">
+              <caret line="6" column="48" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="60" />
+              <folding>
+                <element signature="e#64#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_mysql/consts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_version.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="59" />
+              <folding>
+                <element signature="e#64#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#79#93#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,12 +124,19 @@
         <option value="$PROJECT_DIR$/flask_jinja2/flask_jinja2.py" />
         <option value="$PROJECT_DIR$/index.py" />
         <option value="$PROJECT_DIR$/hello_world.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/consts.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/flask_db_version.py" />
+        <option value="$PROJECT_DIR$/flask_url/flask_url_01.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/flask_curd.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/pymysql_curd.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py" />
+        <option value="$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="455" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="435" />
+    <option name="y" value="49" />
     <option name="width" value="900" />
     <option name="height" value="650" />
   </component>
@@ -94,6 +154,11 @@
               <item name="flask_stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_stu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flask_stu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="flask_mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,12 +174,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pythonproject\flask_stu\flask_view" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pythonproject\flask_stu\flask_error\templates" />
       <recent name="D:\pypy\flask_stu\flask_error\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\flask_stu" />
+      <recent name="D:\pythonproject\flask_stu\flask_view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,8 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello_world">
-    <configuration name="app_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MySQLdb_insert_data">
+    <configuration name="MySQLdb_create_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,12 +204,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_view" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_view/app_api.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_bp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MySQLdb_insert_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,12 +226,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_blue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_blue/app_bp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_jinja2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flask_curd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,12 +248,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_jinja2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pythonproject\flask_stu\flask_jinja2\flask_mako_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_mysql/flask_curd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +262,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_mako" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flask_db_version" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,12 +270,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_jinja2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pythonproject\flask_stu\flask_jinja2\flask_mako_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_mysql/flask_db_version.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pymysql_curd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,12 +292,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_mysql" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_world.py" />
+      <option name="SCRIPT_NAME" value="D:\pythonproject\flask_stu\flask_mysql\MySQLdb_version.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hello_world" />
-        <item itemvalue="Python.flask_mako" />
-        <item itemvalue="Python.flask_jinja2" />
-        <item itemvalue="Python.app_bp" />
-        <item itemvalue="Python.app_api" />
+        <item itemvalue="Python.MySQLdb_insert_data" />
+        <item itemvalue="Python.MySQLdb_create_table" />
+        <item itemvalue="Python.pymysql_curd" />
+        <item itemvalue="Python.flask_curd" />
+        <item itemvalue="Python.flask_db_version" />
       </list>
     </recent_temporary>
   </component>
@@ -264,23 +330,24 @@
       <workItem from="1576894320961" duration="9818000" />
       <workItem from="1576928354708" duration="205000" />
       <workItem from="1577278063960" duration="4923000" />
-      <workItem from="1578229096384" duration="653000" />
+      <workItem from="1578229096384" duration="4952000" />
+      <workItem from="1578317299911" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21782000" />
+    <option name="totallyTimeSpent" value="28891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54754096" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3180328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,7 +356,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.09836066" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.10655738" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -453,8 +520,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="118">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_url/flask_url_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/flask_db_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/consts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/flask_curd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="e#64#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/flask_demo/Lib/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="e#64#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#79#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
