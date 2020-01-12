@@ -34,7 +34,11 @@ rs = conn.execute('select * from users')
 
 for row in rs:
     print(row)
-
+#
+#
+# (1, 'xiaoming')
+# (2, 'xiaohei')
+#
 # 关于 create_engine 的用法
 # engine = create_engine('dialect+driver://username:password@host:port/database')
 #

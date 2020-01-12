@@ -1,0 +1,74 @@
+来反去序
+来的数据需要反序列化，去的数据(给别人的数据需要反序列化)
+
+django-admin startproject defdemo  创建django项目的命令
+
+python manage.py startapp student   创建student的子应用
+
+然后需要去setting那边添加注册
+
+
+drf步骤
+先创建模型，到序列化器，在到视图函数，在到路由
+
+
+序列化器的作用：
+1. 序列化,序列化器会把模型对象转换成字典,经过response以后变成json字符串
+2. 反序列化,把客户端发送过来的数据,经过request以后变成字典,序列化器可以把字典转成模型
+3. 反序列化,完成数据校验功能
+
+自动导包，在还没有导包的函数上alt+enter
+
+
+数据迁移：
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+    在drf中，对于客户提供的数据，往往需要需要验证数据的有效性，这部分代码是写在序列化器中的。
+    在序列化器中，已经提供三个地方供我们针对客户端提交的数据进行验证
+    1.内置选项：字段声明的选项中的小圆括号里面，以选项存在作为验证条件
+    2.自定义方法：在序列化器中作为对象方法来提供验证[ 这部分验证的方法，必须以"validata_<字段>" 或者 "validate" 作为方法名] 开头的方式
+    3.自定义函数：在序列化器外部，提前声明一个验证码，然后在字段声明的小圆括号中，通过"validators=[验证函数1，验证函数2....]" 的方式来写
+
+
+关于序列化器
+什么时候声明的序列化器需要继承序列化器基类Serializer，什么时候继承模型序列化器类ModelSerializer？
+继承序列化器类Serializer                   [不用与模型]
+	字段声明
+	验证
+	添加/保存数据功能
+继承模型序列化器类ModelSerializer   [大部分用于这个]
+	字段声明[可选,看需要]
+	Meta声明
+	验证
+	添加/保存数据功能[可选]
+看表字段大小，看使用哪个更加节省代码了。
+验证码的话就用于Serializer
+
+APIView 提供API接口和request对象
+
+如果用不到数据库操作可以使用APIView
+如果都用到可以用GenericAPIView
+
+
+
+
+https://blog.csdn.net/wangjunwen1017/article/details/96997102
+
+
+django笔记
+https://www.notion.so/Django-ec4d073a33044a659704e4dab289e4e6
+
+
+
+
+
+
+
+
+Flask常用扩展包：
+
+
+
