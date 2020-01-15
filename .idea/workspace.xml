@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd4da30-d833-421e-85a0-415c5fcccaba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A_flask_official/flask_tutorial/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A_flask_official/flask_tutorial/flaskr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_header.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/flask_url_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/http_request_response/updown_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/url/flask_url_for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/url/my_url_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/url/my_url_demo02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/B_two_stu/url/url_demo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/flask_abort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/flask_redirect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/flask_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/flask_status_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/flask_templates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/hello_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/flask_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_sqlachemy/demo01/app_with_sqlachemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_sqlachemy/demo01/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_sqlachemy/demo01/ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_sqlachemy/demo01/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_small_stu/templates/user_first.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_delete_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_insert_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_sleect_table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_update_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/MySQLdb_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_sqlachemy/consts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/flask_SQLAlchemy_con.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/flask_curd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/flask_db_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/flask_sqlachemy_raw_sql.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/msyql_sqlachemy_orm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/mysql_sqlachemy_exp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_mysql/mysql_sqlachemy_rel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_small_stu/flask_templates.py" beforeDir="false" afterPath="$PROJECT_DIR$/C_small_stu/flask_templates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_small_stu/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/C_small_stu/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_small_stu/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/C_small_stu/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_small_stu/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/C_small_stu/templates/user.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +61,7 @@
     <SUITE FILE_PATH="coverage/flask_stu$test_con.coverage" NAME="test_con Coverage Results" MODIFIED="1578494003902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
     <SUITE FILE_PATH="coverage/flask_stu$url_demo01.coverage" NAME="url_demo01 Coverage Results" MODIFIED="1578730797202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/B_two_stu/url" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_db_version.coverage" NAME="flask_db_version Coverage Results" MODIFIED="1578229917663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
-    <SUITE FILE_PATH="coverage/flask_stu$flask_templates.coverage" NAME="flask_templates Coverage Results" MODIFIED="1578820064956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_small_stu" />
+    <SUITE FILE_PATH="coverage/flask_stu$flask_templates.coverage" NAME="flask_templates Coverage Results" MODIFIED="1579097463490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_small_stu" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_SQLAlchemy_con.coverage" NAME="flask_SQLAlchemy_con Coverage Results" MODIFIED="1578406930667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_mysql" />
     <SUITE FILE_PATH="coverage/flask_stu$flask_status_code.coverage" NAME="flask_status_code Coverage Results" MODIFIED="1578797130999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/C_small_stu" />
     <SUITE FILE_PATH="coverage/flask_stu$local.coverage" NAME="local Coverage Results" MODIFIED="1578724284569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_sqlachemy/section4" />
@@ -110,19 +72,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="594">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_url_for.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="e#65#97#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_url_for.py">
+        <entry file="file://$PROJECT_DIR$/C_small_stu/templates/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_small_stu/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_small_stu/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_small_stu/templates/404.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="12" selection-start-line="16" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C_small_stu/flask_templates.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#65#97#0" expanded="true" />
+                <element signature="e#65#105#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_request.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="1242">
               <caret line="71" column="5" selection-start-line="71" selection-end-line="71" selection-end-column="26" />
               <folding>
                 <element signature="e#64#87#0" expanded="true" />
@@ -145,8 +155,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -161,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flask_mysql/flask_curd.py" />
         <option value="$PROJECT_DIR$/flask_mysql/pymysql_curd.py" />
         <option value="$PROJECT_DIR$/flask_mysql/MySQLdb_create_table.py" />
         <option value="$PROJECT_DIR$/flask_mysql/MySQLdb_sleect_table.py" />
@@ -195,9 +204,6 @@
         <option value="$PROJECT_DIR$/C_small_stu/flask_request.py" />
         <option value="$PROJECT_DIR$/C_small_stu/flask_redirect.py" />
         <option value="$PROJECT_DIR$/C_small_stu/flask_abort.py" />
-        <option value="$PROJECT_DIR$/C_small_stu/templates/index.html" />
-        <option value="$PROJECT_DIR$/C_small_stu/templates/user.html" />
-        <option value="$PROJECT_DIR$/C_small_stu/templates/404.html" />
         <option value="$PROJECT_DIR$/C_small_stu/templates/500.html" />
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_request.py" />
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_data.py" />
@@ -208,14 +214,18 @@
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_method.py" />
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_header.py" />
         <option value="$PROJECT_DIR$/C_small_stu/flask_status_code.py" />
-        <option value="$PROJECT_DIR$/C_small_stu/flask_templates.py" />
         <option value="$PROJECT_DIR$/B_two_stu/flask_url_for.py" />
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_json.py" />
         <option value="$PROJECT_DIR$/B_two_stu/http_request_response/flask_url_for.py" />
+        <option value="$PROJECT_DIR$/C_small_stu/templates/index.html" />
+        <option value="$PROJECT_DIR$/C_small_stu/flask_templates.py" />
+        <option value="$PROJECT_DIR$/C_small_stu/templates/base.html" />
+        <option value="$PROJECT_DIR$/C_small_stu/templates/404.html" />
+        <option value="$PROJECT_DIR$/C_small_stu/templates/user.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="172" />
     <option name="y" value="72" />
     <option name="width" value="996" />
@@ -237,13 +247,13 @@
             <path>
               <item name="flask_stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_stu" type="462c0819:PsiDirectoryNode" />
-              <item name="B_two_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="C_small_stu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask_stu" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_stu" type="462c0819:PsiDirectoryNode" />
-              <item name="B_two_stu" type="462c0819:PsiDirectoryNode" />
-              <item name="http_request_response" type="462c0819:PsiDirectoryNode" />
+              <item name="C_small_stu" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flask_stu" type="b2602c69:ProjectViewProjectNode" />
@@ -286,19 +296,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\flask_stu\C_small_stu\templates" />
+      <recent name="D:\pythonproject\flask_stu\templates" />
+      <recent name="D:\pythonproject\flask_stu\flask_sqlachemy\section4" />
+      <recent name="D:\pythonproject\flask_stu\flask_sqlachemy" />
+      <recent name="D:\pythonproject\flask_stu" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pythonproject\flask_stu\B_two_stu\http_request_response" />
       <recent name="D:\pythonproject\flask_stu" />
       <recent name="D:\pythonproject\flask_stu\chapter03" />
       <recent name="D:\pythonproject\flask_stu\flask_sqlachemy" />
       <recent name="D:\pythonproject\flask_stu\flask_error\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pythonproject\flask_stu\templates" />
-      <recent name="D:\pythonproject\flask_stu\flask_sqlachemy\section4" />
-      <recent name="D:\pythonproject\flask_stu\flask_sqlachemy" />
-      <recent name="D:\pythonproject\flask_stu" />
-      <recent name="D:\pythonproject\flask_stu\flask_view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -313,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.flask_url_for (1)">
+  <component name="RunManager" selected="Python.flask_templates">
     <configuration name="flask_json (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask_stu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -426,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flask_templates" />
         <item itemvalue="Python.flask_url_for (1)" />
         <item itemvalue="Python.flask_json (1)" />
         <item itemvalue="Python.flask_json" />
         <item itemvalue="Python.flask_url_for" />
-        <item itemvalue="Python.flask_templates" />
       </list>
     </recent_temporary>
   </component>
@@ -454,23 +464,24 @@
       <workItem from="1578490356483" duration="2135000" />
       <workItem from="1578573375140" duration="3493000" />
       <workItem from="1578712250232" duration="17939000" />
-      <workItem from="1578795412731" duration="17411000" />
+      <workItem from="1578795412731" duration="18178000" />
+      <workItem from="1579094860750" duration="2618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75378000" />
+    <option name="totallyTimeSpent" value="78763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.24205749" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.24583964" />
       <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.1603631" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30163935" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3704918" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,7 +490,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25245902" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2704918" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -522,16 +533,6 @@
     <SUITE FILE_PATH="coverage/flask_stu$flask_stu01.coverage" NAME="flask_stu01 Coverage Results" MODIFIED="1576761344457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03/section4/user.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_sqlachemy/demo01/ext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flask_sqlachemy/demo01/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -663,27 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -844,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C_small_stu/flask_templates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#65#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C_small_stu/flask_status_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -861,9 +831,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_request.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="1242">
           <caret line="71" column="5" selection-start-line="71" selection-end-line="71" selection-end-column="26" />
           <folding>
             <element signature="e#64#87#0" expanded="true" />
@@ -871,20 +848,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_json.py">
+    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="101">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/user_first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/B_two_stu/http_request_response/flask_url_for.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="173">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#65#97#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_small_stu/flask_templates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#65#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="12" selection-start-line="16" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C_small_stu/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>

@@ -4,11 +4,14 @@ __author__ = "hsz"
 
 from flask import Flask, render_template
 from flask import make_response
+from flask_bootstrap import Bootstrap
 
 # 调用了 render_template模板
 # 将templates的目录创建在这个应用的同级目录下
 
 app = Flask(__name__)
+
+bootstrap = Bootstrap(app)
 
 
 @app.route('/response')
@@ -17,6 +20,7 @@ def my_response():
     response.set_cookie('answer', '42')
     # return '<h1>This document carries a cookie!</h1>'  # 效果一样
     return response
+
 
 
 # 在templates目录下创建网页
